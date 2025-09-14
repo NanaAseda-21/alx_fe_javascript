@@ -38,7 +38,6 @@ function displayRandomQuote() {
 function addQuote() {
   const text = document.getElementById("newQuoteText").value.trim();
   const category = document.getElementById("newQuoteCategory").value.trim();
-
   if (text === "" || category === "") {
     alert("Please enter both a quote and a category.");
     return;
